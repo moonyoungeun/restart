@@ -95,7 +95,7 @@ body {
   position: absolute;
   width: 100vw;
   height: 1500px;
-  top: 1000px;
+  top: 950px;
   // background-image: url("../img/water.jpg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -109,17 +109,34 @@ body {
     left: 0vw;
     font: 4vw/1.5 "DM Serif Display";
     color: aliceblue;
-
-    .vi1 {
-      position: absolute;
-      top: 5vw;
-      left: 5vw;
-      width: 100%;
-    }
+  }
+  .vi1 {
+    position: absolute;
+    top: 50vh;
+    left: 20vw;
+    width: 60vw;
+  }
+  .ye02_icon {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 50vw;
+    left: 42vw;
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    background-image: url("../img/icon3.png");
   }
 }
 
 .ye03 {
+  position: absolute;
+  width: 100vw;
+  height: 1500px;
+  top: 2500px;
+  // background-color: orange;
+}
+
+.ye04 {
   position: relative;
   background: linear-gradient(rgb(0, 0, 0), rgb(82, 125, 207));
   display: flex;
