@@ -1,0 +1,72 @@
+//font family Oleo Script Swash Caps , Shadows Into Light ,DM Serif Display
+//Nuosu SIL ,Sawarabi Gothic ,Abril Fatface ,Carter One ,Noto Fonts,Noto Sans Korean
+
+@import "reset";
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=DM+Serif+Display:ital@1&family=Noto+Sans+KR:wght@100;300;400;500&family=Nuosu+SIL&family=Oleo+Script+Swash+Caps&family=Sawarabi+Gothic&family=Shadows+Into+Light&display=swap");
+
+body {
+  background-color: aqua;
+  .YE01 {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 8000px;
+    background-color: blue;
+    background-image: url("../img/main.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 60vw 60px;
+
+    .main_text {
+      position: fixed;
+      width: 100vw;
+      font: 10vw/1 "Abril Fatface";
+      color: aliceblue;
+      opacity: 1;
+      top: 10vw;
+      left: 50vw;
+      text-shadow: 10px 10px 20px rgb(0, 0, 0);
+    }
+
+    .main_text2 {
+      position: fixed;
+      width: 100vw;
+      font: 10vw/1 "Abril Fatface";
+      color: aliceblue;
+      opacity: 1;
+      bottom: 10vw;
+      right: 4vw;
+      text-shadow: 10px 10px 20px rgb(0, 0, 0);
+    }
+    .text {
+      position: fixed;
+      color: aliceblue;
+      font: bold 2vw/1 " Noto Sans Korean";
+      left: 67vw;
+      top: 430vh;
+
+      p {
+        padding: 4vw;
+      }
+    }
+  }
+}
+
+// // gsap.registerPlugin(ScrollTrigger);
+// // gsap.defaults({
+// //   ease: "none",
+// //   duration: 2,
+// // });
+
+// // const tl = gsap.timeline({
+// //   scrollTrigger: {
+// //     trigger: ".wrap",
+// //     start: "top top",
+// //     marker: true,
+// //     end: "+=3000",
+// //     scrub: true,
+// //     pin: true,
+// //   },
+// // });
