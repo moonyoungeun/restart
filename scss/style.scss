@@ -8,8 +8,8 @@
 body {
   background-color: rgb(104, 168, 196);
   position: relative;
-  width: 100%;
-  height: 6000px;
+  overflow-x: hidden;
+
   // cursor: none;
 
   // .cursor {
@@ -104,20 +104,17 @@ body {
   // background: linear-gradient(rgb(104, 168, 196), rgb(37, 51, 73));
 
   .text02_1 {
-    position: fixed;
+    position: relative;
     top: 0vw;
     left: 0vw;
     font: 4vw/1.5 "DM Serif Display";
     color: aliceblue;
 
-    .video0 {
+    .vi1 {
       position: absolute;
-      top: 50vw;
+      top: 5vw;
       left: 5vw;
-      background-size: 5vw;
       width: 100%;
-
-      background-size: 50vw;
     }
   }
 }
