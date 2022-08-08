@@ -8,6 +8,17 @@
 body {
   background-color: rgb(104, 168, 196);
   position: relative;
+  width: 100%;
+  height: 6000px;
+  // cursor: none;
+
+  // .cursor {
+  //   width: 20px;
+  //   height: 20px;
+  //   position: absolute;
+  //   background-image: url("../img/icon-removebg-preview.png");
+  //   z-index: 999;
+  // }
 
   .icon {
     position: fixed;
@@ -83,91 +94,113 @@ body {
 .YE02 {
   position: absolute;
   width: 100vw;
-  height: 4000px;
+  height: 1500px;
   top: 1000px;
   // background-image: url("../img/water.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: black;
 
-  background: linear-gradient(rgb(104, 168, 196), rgb(37, 51, 73));
+  // background: linear-gradient(rgb(104, 168, 196), rgb(37, 51, 73));
 
   .text02_1 {
     position: fixed;
-    top: -8vw;
+    top: 0vw;
     left: 0vw;
-    font: 4vw/2 "DM Serif Display";
+    font: 4vw/1.5 "DM Serif Display";
     color: aliceblue;
-  }
-  .video1 {
-    position: fixed;
-    background-image: url("../gif/gif1.gif");
-    width: 100vw;
-    height: 100vw;
-    top: 20vw;
-    left: 8vw;
-    background-size: 30vw;
-    background-repeat: no-repeat;
-  }
-  .video2 {
-    position: fixed;
-    top: 35vw;
-    left: 8vw;
-    background-image: url("../gif/gif2.gif");
-    width: 100vw;
-    height: 100vw;
-    background-repeat: no-repeat;
-    background-size: 30vw;
-  }
-  .video3 {
-    position: fixed;
-    top: 20vw;
-    left: 40vw;
-    background-image: url("../gif/gif3.gif");
-    width: 100vw;
-    height: 100vw;
-    background-repeat: no-repeat;
-    background-size: 31.5vw;
-  }
-  .video4 {
-    position: fixed;
-    top: 35vw;
-    left: 40vw;
-    background-image: url("../gif/gif4.gif");
-    width: 100vw;
-    height: 100vw;
-    background-repeat: no-repeat;
-    background-size: 31.5vw 23vh;
-  }
-  .video5 {
-    position: fixed;
-    top: 20vw;
-    left: 73vw;
-    background-image: url("../gif/gif8.gif");
-    width: 100vw;
-    height: 100vw;
-    background-repeat: no-repeat;
-    background-size: 20.5vw;
-  }
-  .video6 {
-    position: fixed;
-    top: 20vw;
-    background-color: aliceblue;
-    width: 50vw;
-    height: 30vw;
-    opacity: 0.5;
-  }
-  .video7 {
-    position: fixed;
-    top: 17vw;
-    left: 20vw;
-    width: 80vw;
-    height: 50vh;
-    opacity: 0.5;
-    background-image: url("../img/water.jpg");
-    background-repeat: no-repeat;
+
+    .video0 {
+      position: absolute;
+      top: 50vw;
+      left: 5vw;
+      background-size: 5vw;
+      width: 100%;
+
+      background-size: 50vw;
+    }
   }
 }
 
+.ye03 {
+  position: relative;
+  background: linear-gradient(rgb(0, 0, 0), rgb(82, 125, 207));
+  display: flex;
+  width: 100vw;
+  height: 5000px;
+  top: 400px;
+  .video {
+    position: absolute;
+    .video1 {
+      position: absolute;
+      background-image: url("../gif/gif1.gif");
+      width: 100vw;
+      height: 100vw;
+      top: 20vw;
+      left: 8vw;
+      background-size: 30vw;
+      background-repeat: no-repeat;
+    }
+    .video2 {
+      position: absolute;
+      top: 35vw;
+      left: 8vw;
+      background-image: url("../gif/gif2.gif");
+      width: 100vw;
+      height: 100vw;
+      background-repeat: no-repeat;
+      background-size: 30vw;
+    }
+    .video3 {
+      position: absolute;
+      top: 20vw;
+      left: 40vw;
+      background-image: url("../gif/gif3.gif");
+      width: 100vw;
+      height: 100vw;
+      background-repeat: no-repeat;
+      background-size: 31.5vw;
+    }
+    .video4 {
+      position: absolute;
+      top: 35vw;
+      left: 40vw;
+      background-image: url("../gif/gif4.gif");
+      width: 100vw;
+      height: 100vw;
+      background-repeat: no-repeat;
+      background-size: 31.5vw 23vh;
+    }
+    .video5 {
+      position: absolute;
+      top: 20vw;
+      left: 73vw;
+      background-image: url("../gif/gif8.gif");
+      width: 100vw;
+      height: 100vw;
+      background-repeat: no-repeat;
+      background-size: 20.5vw;
+    }
+    .video6 {
+      position: absolute;
+      top: 20vw;
+      background-color: aliceblue;
+      width: 50vw;
+      height: 30vw;
+      opacity: 0.5;
+    }
+    .video7 {
+      position: absolute;
+      top: 17vw;
+      left: 20vw;
+      width: 80vw;
+      height: 50vh;
+      opacity: 0.5;
+      background-image: url("../img/water.jpg");
+      background-repeat: no-repeat;
+    }
+  }
+}
 // // gsap.registerPlugin(ScrollTrigger);
 // // gsap.defaults({
 // //   ease: "none",

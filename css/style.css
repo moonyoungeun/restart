@@ -17,6 +17,8 @@ a {
 body {
   background-color: rgb(104, 168, 196);
   position: relative;
+  width: 100%;
+  height: 6000px;
 }
 body .icon {
   position: fixed;
@@ -86,21 +88,41 @@ body .YE01 .text p {
 .YE02 {
   position: absolute;
   width: 100vw;
-  height: 4000px;
+  height: 1500px;
   top: 1000px;
   background-repeat: no-repeat;
   background-size: contain;
-  background: linear-gradient(rgb(104, 168, 196), rgb(37, 51, 73));
+  background-color: black;
 }
 .YE02 .text02_1 {
   position: fixed;
-  top: -8vw;
+  top: 0vw;
   left: 0vw;
-  font: 4vw/2 "DM Serif Display";
+  font: 4vw/1.5 "DM Serif Display";
   color: aliceblue;
 }
-.YE02 .video1 {
-  position: fixed;
+.YE02 .text02_1 .video0 {
+  position: absolute;
+  top: 50vw;
+  left: 5vw;
+  background-size: 5vw;
+  width: 100%;
+  background-size: 50vw;
+}
+
+.ye03 {
+  position: relative;
+  background: linear-gradient(rgb(0, 0, 0), rgb(82, 125, 207));
+  display: flex;
+  width: 100vw;
+  height: 5000px;
+  top: 400px;
+}
+.ye03 .video {
+  position: absolute;
+}
+.ye03 .video .video1 {
+  position: absolute;
   background-image: url("../gif/gif1.gif");
   width: 100vw;
   height: 100vw;
@@ -109,8 +131,8 @@ body .YE01 .text p {
   background-size: 30vw;
   background-repeat: no-repeat;
 }
-.YE02 .video2 {
-  position: fixed;
+.ye03 .video .video2 {
+  position: absolute;
   top: 35vw;
   left: 8vw;
   background-image: url("../gif/gif2.gif");
@@ -119,8 +141,8 @@ body .YE01 .text p {
   background-repeat: no-repeat;
   background-size: 30vw;
 }
-.YE02 .video3 {
-  position: fixed;
+.ye03 .video .video3 {
+  position: absolute;
   top: 20vw;
   left: 40vw;
   background-image: url("../gif/gif3.gif");
@@ -129,8 +151,8 @@ body .YE01 .text p {
   background-repeat: no-repeat;
   background-size: 31.5vw;
 }
-.YE02 .video4 {
-  position: fixed;
+.ye03 .video .video4 {
+  position: absolute;
   top: 35vw;
   left: 40vw;
   background-image: url("../gif/gif4.gif");
@@ -139,8 +161,8 @@ body .YE01 .text p {
   background-repeat: no-repeat;
   background-size: 31.5vw 23vh;
 }
-.YE02 .video5 {
-  position: fixed;
+.ye03 .video .video5 {
+  position: absolute;
   top: 20vw;
   left: 73vw;
   background-image: url("../gif/gif8.gif");
@@ -149,16 +171,16 @@ body .YE01 .text p {
   background-repeat: no-repeat;
   background-size: 20.5vw;
 }
-.YE02 .video6 {
-  position: fixed;
+.ye03 .video .video6 {
+  position: absolute;
   top: 20vw;
   background-color: aliceblue;
   width: 50vw;
   height: 30vw;
   opacity: 0.5;
 }
-.YE02 .video7 {
-  position: fixed;
+.ye03 .video .video7 {
+  position: absolute;
   top: 17vw;
   left: 20vw;
   width: 80vw;

@@ -5,6 +5,11 @@ window.addEventListener("scroll", function () {
   console.log(scrollY);
 });
 
+// const cursor = document.querySelector(".cursor");
+// mouseEffect.addEventListener("mousemove", (e) => {
+//   cursor.style.left = `${e.clientX}px`;
+//   cursor.style.top = `${e.clientY}px`;
+// });
 // gsap.registerPlugin(ScrollTrigger);
 
 // gsap.defaults({
