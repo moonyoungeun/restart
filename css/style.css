@@ -15,14 +15,37 @@ a {
 }
 
 body {
-  background-color: aqua;
+  background-color: rgb(104, 168, 196);
+  position: relative;
+}
+body .icon {
+  position: fixed;
+  width: 100%;
+  top: 2vw;
+  left: 95vw;
+  z-index: 1;
+  font-size: 2vw;
+  color: aliceblue;
+  cursor: pointer;
+}
+body .icon2 {
+  position: fixed;
+  width: 100%;
+  top: 1vw;
+  left: 2vw;
+  height: 5vw;
+  background-size: 6vw;
+  color: aliceblue;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-image: url("../img/icon2-removebg-preview.png");
 }
 body .YE01 {
-  position: relative;
   display: flex;
   width: 100vw;
-  height: 8000px;
-  background-color: blue;
+  height: 2000px;
+  top: 0px;
+  background-color: rgb(104, 168, 196);
   background-image: url("../img/main.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,32 +55,117 @@ body .YE01 {
 body .YE01 .main_text {
   position: fixed;
   width: 100vw;
-  font: 10vw/1 "Abril Fatface";
+  font: 10vw/1 "DM Serif Display";
   color: aliceblue;
   opacity: 1;
-  top: 10vw;
-  left: 50vw;
+  top: 15vw;
+  left: 25vw;
   text-shadow: 10px 10px 20px rgb(0, 0, 0);
 }
 body .YE01 .main_text2 {
   position: fixed;
   width: 100vw;
-  font: 10vw/1 "Abril Fatface";
+  font: 10vw/1 "DM Serif Display";
   color: aliceblue;
   opacity: 1;
-  bottom: 10vw;
-  right: 4vw;
+  bottom: 15vw;
+  right: 3vw;
   text-shadow: 10px 10px 20px rgb(0, 0, 0);
 }
 body .YE01 .text {
   position: fixed;
   color: aliceblue;
-  font: bold 2vw/1 " Noto Sans Korean";
-  left: 67vw;
-  top: 430vh;
+  font: bold 1.2vw/1 "Noto Sans Korean";
+  left: 25vw;
+  bottom: 16vh;
 }
 body .YE01 .text p {
   padding: 4vw;
+}
+
+.YE02 {
+  position: absolute;
+  width: 100vw;
+  height: 4000px;
+  top: 1000px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background: linear-gradient(rgb(104, 168, 196), rgb(37, 51, 73));
+}
+.YE02 .text02_1 {
+  position: fixed;
+  top: -8vw;
+  left: 0vw;
+  font: 4vw/2 "DM Serif Display";
+  color: aliceblue;
+}
+.YE02 .video1 {
+  position: fixed;
+  background-image: url("../gif/gif1.gif");
+  width: 100vw;
+  height: 100vw;
+  top: 20vw;
+  left: 8vw;
+  background-size: 30vw;
+  background-repeat: no-repeat;
+}
+.YE02 .video2 {
+  position: fixed;
+  top: 35vw;
+  left: 8vw;
+  background-image: url("../gif/gif2.gif");
+  width: 100vw;
+  height: 100vw;
+  background-repeat: no-repeat;
+  background-size: 30vw;
+}
+.YE02 .video3 {
+  position: fixed;
+  top: 20vw;
+  left: 40vw;
+  background-image: url("../gif/gif3.gif");
+  width: 100vw;
+  height: 100vw;
+  background-repeat: no-repeat;
+  background-size: 31.5vw;
+}
+.YE02 .video4 {
+  position: fixed;
+  top: 35vw;
+  left: 40vw;
+  background-image: url("../gif/gif4.gif");
+  width: 100vw;
+  height: 100vw;
+  background-repeat: no-repeat;
+  background-size: 31.5vw 23vh;
+}
+.YE02 .video5 {
+  position: fixed;
+  top: 20vw;
+  left: 73vw;
+  background-image: url("../gif/gif8.gif");
+  width: 100vw;
+  height: 100vw;
+  background-repeat: no-repeat;
+  background-size: 20.5vw;
+}
+.YE02 .video6 {
+  position: fixed;
+  top: 20vw;
+  background-color: aliceblue;
+  width: 50vw;
+  height: 30vw;
+  opacity: 0.5;
+}
+.YE02 .video7 {
+  position: fixed;
+  top: 17vw;
+  left: 20vw;
+  width: 80vw;
+  height: 50vh;
+  opacity: 0.5;
+  background-image: url("../img/water.jpg");
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */
