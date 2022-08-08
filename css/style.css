@@ -87,7 +87,7 @@ body .YE01 .text p {
 .YE02 {
   position: absolute;
   width: 100vw;
-  height: 1500px;
+  height: 3000px;
   top: 950px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -106,16 +106,15 @@ body .YE01 .text p {
   left: 20vw;
   width: 60vw;
 }
-.YE02 .ye02_icon {
-  position: absolute;
+.YE02 .ye02_gif {
+  position: fixed;
+  background-image: url("../gif/gif5.gif");
   width: 100vw;
-  height: 100vh;
-  top: 50vw;
-  left: 40vw;
+  height: 200vw;
+  top: 13vw;
+  left: 26vw;
   background-repeat: no-repeat;
-  background-size: 20vw;
-  background-image: url("../img/icon3.png");
-  opacity: 0.4;
+  background-size: 50vw;
 }
 .YE02 .black {
   position: fixed;
@@ -129,35 +128,42 @@ body .YE01 .text p {
   font: 3.2vw/1 "DM Serif Display";
   top: 19vw;
   left: 4vw;
-  color: aliceblue;
+  color: rgb(152, 184, 243);
 }
 .YE02 .black2 {
   position: fixed;
   width: 100vw;
   height: 10vh;
   top: 18vw;
-  background-color: orange;
+  background-color: black;
 }
 .YE02 .p2 {
   position: fixed;
   font: 3vw/1 "Song Myung";
   top: 25vw;
   left: 32vw;
-  color: aliceblue;
+  color: rgb(115, 148, 207);
+}
+.YE02 .black3 {
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  top: 18vw;
+  background-color: black;
 }
 .YE02 .p3 {
   position: fixed;
   font: 2.5vw/1 "Song Myung";
   top: 30vw;
   left: 35vw;
-  color: aliceblue;
+  color: rgb(82, 125, 207);
 }
 
 .ye03 {
   position: absolute;
   width: 100vw;
   height: 1500px;
-  top: 2500px;
+  top: 39500px;
 }
 
 .ye04 {
