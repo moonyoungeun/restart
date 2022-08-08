@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=DM+Serif+Display:ital@1&family=Noto+Sans+KR:wght@100;300;400;500&family=Nuosu+SIL&family=Oleo+Script+Swash+Caps&family=Sawarabi+Gothic&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=DM+Serif+Display:ital@1&family=Noto+Sans+KR:wght@100;300;400;500&family=Nuosu+SIL&family=Oleo+Script+Swash+Caps&family=Sawarabi+Gothic&family=Shadows+Into+Light&family=Song+Myung&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -111,10 +111,46 @@ body .YE01 .text p {
   width: 100vw;
   height: 100vh;
   top: 50vw;
-  left: 42vw;
+  left: 40vw;
   background-repeat: no-repeat;
   background-size: 20vw;
   background-image: url("../img/icon3.png");
+  opacity: 0.4;
+}
+.YE02 .black {
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  top: 18vw;
+  background-color: black;
+}
+.YE02 .p1 {
+  position: fixed;
+  font: 3.2vw/1 "DM Serif Display";
+  top: 19vw;
+  left: 4vw;
+  color: aliceblue;
+}
+.YE02 .black2 {
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  top: 18vw;
+  background-color: orange;
+}
+.YE02 .p2 {
+  position: fixed;
+  font: 3vw/1 "Song Myung";
+  top: 25vw;
+  left: 32vw;
+  color: aliceblue;
+}
+.YE02 .p3 {
+  position: fixed;
+  font: 2.5vw/1 "Song Myung";
+  top: 30vw;
+  left: 35vw;
+  color: aliceblue;
 }
 
 .ye03 {
