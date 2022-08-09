@@ -45,7 +45,7 @@ body .YE01 {
   width: 100vw;
   height: 2000px;
   top: 0px;
-  background-color: rgb(104, 168, 196);
+  background-color: rgb(0, 0, 0);
   background-image: url("../img/main.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -177,7 +177,7 @@ body .YE01 .text p {
   background-color: black;
   display: flex;
   width: 100vw;
-  height: 5000px;
+  height: 4000px;
   top: 1600px;
 }
 .ye03 .ye03_icon {
@@ -255,14 +255,19 @@ body .YE01 .text p {
   top: 50vw;
   left: 0vw;
 }
-
-.ye04 {
-  position: absolute;
-  width: 100vw;
-  height: 3500px;
-  background: linear-gradient(rgb(0, 0, 0), rgb(104, 168, 196));
-  top: 5500px;
-  display: flex;
+.ye03 .main {
+  position: fixed;
+  top: 38vw;
+  left: 8vw;
+  color: white;
+  font: bold 2.2vw/1 "Noto Sans Korean";
+}
+.ye03 span {
+  position: fixed;
+  top: 41vw;
+  left: 8vw;
+  color: white;
+  font: 1.2vw/1.3 "Noto Sans Korean";
 }
 
 /*# sourceMappingURL=style.css.map */
