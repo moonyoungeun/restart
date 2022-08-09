@@ -42,7 +42,6 @@ body .icon2 {
   background-image: url("../img/icon2-removebg-preview.png");
 }
 body .YE01 {
-  display: flex;
   width: 100vw;
   height: 2000px;
   top: 0px;
@@ -50,7 +49,6 @@ body .YE01 {
   background-image: url("../img/main.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
   padding: 60vw 60px;
 }
 body .YE01 .main_text {
@@ -116,6 +114,21 @@ body .YE01 .text p {
   background-repeat: no-repeat;
   background-size: 50vw;
 }
+.YE02 .ye02_line {
+  position: fixed;
+  border: 1px solid white;
+  top: 27vw;
+  left: 0vw;
+  width: 100vw;
+}
+.YE02 .ye02_line_block {
+  position: fixed;
+  top: 25vw;
+  left: 0vw;
+  width: 100vw;
+  height: 5vw;
+  background-color: rgb(0, 0, 0);
+}
 .YE02 .black {
   position: fixed;
   width: 100vw;
@@ -160,34 +173,32 @@ body .YE01 .text p {
 }
 
 .ye03 {
-  position: absolute;
-  width: 100vw;
-  height: 1500px;
-  top: 39500px;
-}
-
-.ye04 {
   position: relative;
-  background: linear-gradient(rgb(0, 0, 0), rgb(82, 125, 207));
+  background-color: black;
   display: flex;
   width: 100vw;
   height: 5000px;
-  top: 400px;
+  top: 1600px;
 }
-.ye04 .video {
-  position: absolute;
+.ye03 .ye03_icon {
+  background-image: url("../img/icon3.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: 7vw;
+  position: fixed;
+  top: 45vw;
+  left: 48vw;
+  background-repeat: no-repeat;
 }
-.ye04 .video .video1 {
+.ye03 .video .video1 {
   position: absolute;
   background-image: url("../gif/gif1.gif");
   width: 100vw;
   height: 100vw;
-  top: 20vw;
-  left: 8vw;
   background-size: 30vw;
   background-repeat: no-repeat;
 }
-.ye04 .video .video2 {
+.ye03 .video .video2 {
   position: absolute;
   top: 35vw;
   left: 8vw;
@@ -197,7 +208,7 @@ body .YE01 .text p {
   background-repeat: no-repeat;
   background-size: 30vw;
 }
-.ye04 .video .video3 {
+.ye03 .video .video3 {
   position: absolute;
   top: 20vw;
   left: 40vw;
@@ -207,7 +218,7 @@ body .YE01 .text p {
   background-repeat: no-repeat;
   background-size: 31.5vw;
 }
-.ye04 .video .video4 {
+.ye03 .video .video4 {
   position: absolute;
   top: 35vw;
   left: 40vw;
@@ -217,33 +228,41 @@ body .YE01 .text p {
   background-repeat: no-repeat;
   background-size: 31.5vw 23vh;
 }
-.ye04 .video .video5 {
+.ye03 .video .video5 {
   position: absolute;
-  top: 20vw;
-  left: 73vw;
   background-image: url("../gif/gif8.gif");
   width: 100vw;
   height: 100vw;
   background-repeat: no-repeat;
-  background-size: 20.5vw;
 }
-.ye04 .video .video6 {
+.ye03 .video .video6 {
   position: absolute;
-  top: 20vw;
-  background-color: aliceblue;
-  width: 50vw;
-  height: 30vw;
-  opacity: 0.5;
-}
-.ye04 .video .video7 {
-  position: absolute;
-  top: 17vw;
-  left: 20vw;
-  width: 80vw;
-  height: 50vh;
-  opacity: 0.5;
-  background-image: url("../img/water.jpg");
+  top: 0vw;
+  left: -25vw;
+  background-image: url("../img/line-removebg-preview.png");
   background-repeat: no-repeat;
+  background-size: 100vw;
+  transform: rotate(90deg);
+  width: 100vw;
+  height: 100vw;
+  opacity: 0.5;
+}
+.ye03 .video .video7 {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 120vw;
+  top: 50vw;
+  left: 0vw;
+}
+
+.ye04 {
+  position: absolute;
+  width: 100vw;
+  height: 3000px;
+  background: linear-gradient(rgb(0, 0, 0), rgb(104, 168, 196));
+  top: 5500px;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
