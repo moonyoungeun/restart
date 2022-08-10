@@ -19,36 +19,32 @@ body {
   position: relative;
   overflow-x: hidden;
 }
-body .icon {
+body .manu {
+  display: flex;
   position: fixed;
   width: 100%;
-  top: 2vw;
-  left: 95vw;
-  z-index: 1;
-  font-size: 2vw;
-  color: aliceblue;
-  cursor: pointer;
-}
-body .icon2 {
-  position: fixed;
-  width: 100%;
-  top: 1vw;
-  left: 2vw;
-  height: 5vw;
-  background-size: 6vw;
-  color: aliceblue;
   z-index: 2;
-  background-repeat: no-repeat;
-  background-image: url("../img/icon2-removebg-preview.png");
+  color: aliceblue;
+}
+body .manu pre {
+  position: absolute;
+  font: 1.2vw/0.8vw "Sawarabi Gothic";
+  top: 2vw;
+  right: 4vw;
+  text-align: right;
+}
+body .manu pre p {
+  cursor: pointer;
 }
 body .YE01 {
   width: 100vw;
   height: 2000px;
   top: 0px;
   background-color: rgb(0, 0, 0);
-  background-image: url("../img/main.jpg");
+  background-image: url("../img/ye-img/main.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   padding: 60vw 60px;
 }
 body .YE01 .main_text {
@@ -106,7 +102,7 @@ body .YE01 .text p {
 }
 .YE02 .ye02_gif {
   position: fixed;
-  background-image: url("../gif/gif5.gif");
+  background-image: url("../gif/ye-gif/gif5.gif");
   width: 100vw;
   height: 200vw;
   top: 13vw;
@@ -181,7 +177,7 @@ body .YE01 .text p {
   top: 1600px;
 }
 .ye03 .ye03_icon {
-  background-image: url("../img/icon3.png");
+  background-image: url("../img/ye-img/icon3.png");
   width: 100vw;
   height: 100vh;
   background-size: 7vw;
@@ -192,7 +188,7 @@ body .YE01 .text p {
 }
 .ye03 .video .video1 {
   position: absolute;
-  background-image: url("../gif/gif1.gif");
+  background-image: url("../gif/ye-gif/gif1.gif");
   width: 100vw;
   height: 100vw;
   background-size: 30vw;
@@ -202,7 +198,7 @@ body .YE01 .text p {
   position: absolute;
   top: 35vw;
   left: 8vw;
-  background-image: url("../gif/gif2.gif");
+  background-image: url("../gif/ye-gif/gif2.gif");
   width: 100vw;
   height: 100vw;
   background-repeat: no-repeat;
@@ -212,7 +208,7 @@ body .YE01 .text p {
   position: absolute;
   top: 20vw;
   left: 40vw;
-  background-image: url("../gif/gif3.gif");
+  background-image: url("../gif/ye-gif/gif3.gif");
   width: 100vw;
   height: 100vw;
   background-repeat: no-repeat;
@@ -222,7 +218,7 @@ body .YE01 .text p {
   position: absolute;
   top: 35vw;
   left: 40vw;
-  background-image: url("../gif/gif4.gif");
+  background-image: url("../gif/ye-gif/gif4.gif");
   width: 100vw;
   height: 100vw;
   background-repeat: no-repeat;
@@ -230,7 +226,7 @@ body .YE01 .text p {
 }
 .ye03 .video .video5 {
   position: absolute;
-  background-image: url("../gif/gif8.gif");
+  background-image: url("../gif/ye-gif/gif8.gif");
   width: 100vw;
   height: 100vw;
   background-repeat: no-repeat;
@@ -239,7 +235,7 @@ body .YE01 .text p {
   position: absolute;
   top: 0vw;
   left: -25vw;
-  background-image: url("../img/line-removebg-preview.png");
+  background-image: url("../img/ye-img/line-removebg-preview.png");
   background-repeat: no-repeat;
   background-size: 100vw;
   transform: rotate(90deg);
