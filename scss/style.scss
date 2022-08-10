@@ -20,15 +20,24 @@ body {
   //   z-index: 999;
   // }
 
-  .icon {
+  .manu {
+    display: flex;
     position: fixed;
     width: 100%;
-    top: 2vw;
-    left: 95vw;
-    z-index: 1;
-    font-size: 2vw;
+    z-index: 2;
     color: aliceblue;
-    cursor: pointer;
+
+    pre {
+      position: absolute;
+      font: 1.2vw/0.8vw "Sawarabi Gothic";
+      top: 2vw;
+      right: 4vw;
+      text-align: right;
+
+      p {
+        cursor: pointer;
+      }
+    }
   }
 
   .icon2 {
@@ -39,7 +48,7 @@ body {
     height: 5vw;
     background-size: 6vw;
     color: aliceblue;
-    z-index: 2;
+    z-index: 1;
     background-repeat: no-repeat;
     background-image: url("../img/icon2-removebg-preview.png");
   }
@@ -52,7 +61,7 @@ body {
     background-image: url("../img/main.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    background-size: cover;
     padding: 60vw 60px;
 
     .main_text {
@@ -264,6 +273,10 @@ body {
       width: 100vw;
       height: 100vw;
       background-repeat: no-repeat;
+
+      // &:hover {
+      //   background-color: black;
+      // }
     }
     .video6 {
       position: absolute;
